@@ -7,3 +7,5 @@ what is gitHub?
 what is git versioning? 
 
 branches, commits, clones, checkouts- wtf?
+
+
