@@ -12,6 +12,7 @@
 > Today let's consider how to take your Objects, and relate them to one another between Classes. 
 
 # use an instance variable to reference a related object
+
 ## consider the following:
 
 ```
@@ -63,7 +64,9 @@ This is a Kitten class, our codified blueprint for making as many kitten objects
 Absolutely it's a big deal that we can make all the kittens we want. However we _also_ want the idea of us having those kittens. Here we are going to 'associate' our objects (instances that come from a class), and have our object relate to each other. This is _Object Oriented Ruby_ after all. 
 
 ## Ah yes, you want the Owner Class  
-Fantastic, build your Owner class. :grimacing:
+Fantastic, build your Owner class. :grimacing: 
+* * *
+
 We want: 
 
 * an **Owner class** that initializes it's instance with a name ("A man needs a name" - GOT reference) with the following methods (for now, we _are_ adding more later)
@@ -156,18 +159,14 @@ Class Kitten
 end
 
 ```
-We modified our Kitten class with a 'getter' and 'setter' owner method, but we could also as easily add an :
-
-```
-attr_accessor :owner
-
-```
-in our Kitten class and get the same result. These macros are great for us to use, but for this lesson we are using 'owner' and 'owner='.
+* * *
+We modified our Kitten class with a 'getter' and 'setter' owner method, but we could also as easily add an : `attr_accessor :owner` in our Kitten class and get the same result. These macros are great for us to use, but for this lesson we are using 'owner' and 'owner='.
 Note we also assigned our @owner to nil on initialization. @owner would've _already_ been nil (you can test it in pry) but as devs we always want to be explicit rather than implicit, we leave nothing to chance. 
 Also in this **domain**, kittens are born without a owner :sob: 
 
 run this in an irb session. Antonio showed us: 
 ```
+
 irb -r ./run.rb 
 
 ```
