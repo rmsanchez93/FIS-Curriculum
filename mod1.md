@@ -1,0 +1,57 @@
+# Module 1
+
+- Data Structures
+  - Describe structures with hashes and arrays
+  - Use `each` to run code for every element in an array
+  - Create functions
+  - Use a methodology to solve problems
+- Object Orientation
+  - Create a class and instance
+  - Create instance methods
+  - Create instance variables
+  - Use the `initialize` method to set inital values for instance variables 
+- Object Properties
+  - Describe the `self` keyword
+  - Create getters and setters
+  - Use `access` macros
+- Inheritance
+  - Implement a class which inherits from another using  `<` 
+  - Use `require_relative` to share code between files
+- Classes
+  - Create class variables
+  - Create class methods
+- One to Many Relationships
+  - Use an instance variable to reference a related object
+  - Use an instance method to reference multiple related objects
+  - Use `select` to reference related objects
+- Many to Many Relationships
+  - Identify use cases for one to many and many to many relationships
+  - Reference related objects through a join class
+  - Use `map` to reference related objects through a join class
+- SQL
+  - Define SQL and Schema
+  - Use Foreign Keys to Associate Table Rows
+  - Access a SQL database from Ruby
+- Active Record
+  - Recognize the components of a conventional ActiveRecord environment
+  - Use ActiveRecord migrations to create and update a data schema
+  - Use ActiveRecord models to manipulate data
+- Active Record Relationships
+  - Use a migration to create foreign keys
+  - Use a `belongs_to` macro to create an ActiveRecord relationship
+  - Use a `has_many` macro to create an ActiveRecord relationship
+  - Use the `through` option to create a many to many relationship
+- Basic Applications
+  - Put together the tools of the Mod up to this point to build a basic CLI Application
+- Git
+  - Use `git clone` to get code from GitHub
+  - Use `git commit` and  `git push` to save code back to GitHub
+  - Use `git branch` to work on your own copy of a project
+  - Merge branches together using Pull Requests on GitHub
+- Automated Testing
+  - Describe various kinds of software testing
+  - Write a unit test using RSpec 
+- Intro to the Internet
+  - Explain the role of a Server and Client in the context of the internet
+  - Identify the components of an HTTP Request and Response
+  - Use Sinatra to to respond to an HTTP Request
