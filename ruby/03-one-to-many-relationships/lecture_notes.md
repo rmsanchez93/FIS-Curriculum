@@ -51,10 +51,10 @@ This is a Kitten class, our codified blueprint for making as many kitten objects
 ## Quick Checkpoint 
 ## Use the above code to answering the following:
 
-* 1. What kind of method is 'def meow'? 
-* 2. What kind of method is 'def self.all'? 
-* 3. What kind of variable is '@@all'?
-* 4. How can we modify our code to get our @breed value back from a kitten instance?
+ 1)  What kind of method is 'def meow'? 
+ 2)  What kind of method is 'def self.all'? 
+ 3)  What kind of variable is '@@all'?
+ 4)  How can we modify our code to get our @breed value back from a kitten instance?
 
 >answers are at the bottom of _this_ readme 
 
